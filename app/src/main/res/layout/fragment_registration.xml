@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationFragment">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:visibility="visible">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl1"
+        android:layout_marginTop="180dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:id="@+id/login_select"
+        android:layout_marginLeft="90dp"
+        android:onClick="login_show"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/waveform_unselected_bkgnd_overlay"
+        />
+        <TextView
+            android:layout_width="4dp"
+            android:layout_height="60dp"
+            android:id="@+id/isolation"
+            android:layout_toRightOf="@id/login_select"
+            android:background="@color/color_black"
+            android:layout_marginLeft="15dp"
+            />
+    <TextView
+        android:id="@+id/signup_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/isolation"
+        android:text="@string/btn_signup"
+        android:textSize="40dp"
+        android:fontFamily="0sans-serif-black"
+        android:textColor="@color/waveform_unselected_bkgnd_overlay"
+        android:onClick="signup_show"
+        />
+        <fragment
+            android:id="@+id/fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="0dp"
+            />
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>
+
+</LinearLayout>

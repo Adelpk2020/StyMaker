@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StyleMakerApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_cart">Your Cart</string>
+    <string name="edt_username">Full Name</string>
+    <string name="ed_password">Password</string>
+    <string name="edt_phone">Phone</string>
+    <string name="edt_email">E-mail Address</string>
+    <string name="edt_forgetpass">Forget Password?</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_signup">Sign Up</string>
+</resources>

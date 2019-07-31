@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".log_in">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/login_layout"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/register_shape"
+                android:hint="@string/edt_email"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textColorHint="@color/waveform_selected" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/register_shape"
+                android:hint="@string/ed_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textColorHint="@color/waveform_selected" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edt_forgetpass"
+                android:textColor="@color/card_bg_dark_color"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="right"
+                android:layout_marginTop="5sp"
+                />
+            <Button
+                android:id="@+id/log_in"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="66dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_shape"
+                android:text="@string/btn_login"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

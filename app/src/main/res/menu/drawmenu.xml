@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/db" android:title="Home" android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/search" android:title="Profile" android:icon="@drawable/ic_users"/>
+    <item android:id="@+id/contact" android:title="WishList" android:icon="@drawable/ic_wishlist"/>
+    <item android:id="@+id/settings" android:title="Cart" android:icon="@drawable/ic_shoppingcart"/>
+    <item android:id="@+id/logout" android:title="Log Out" android:icon="@drawable/ic_log_out"/>
+    <item android:title="___________________"/>
+    <item android:id="@+id/offers" android:title="Offers" android:icon="@drawable/ic_offers"/>
+    <item android:id="@+id/about" android:title="About App" android:icon="@drawable/ic_about"/>
+    <item android:id="@+id/feedback" android:title="Feedback" android:icon="@drawable/ic_feedback"/>
+    <item android:id="@+id/help" android:title="Help Center" android:icon="@drawable/ic_helpcenter"/>
+</menu>
